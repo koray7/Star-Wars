@@ -1,10 +1,79 @@
 .App {
-  text-align: center;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-* {
-  background-image: url("https://cdn.vox-cdn.com/thumbor/KaukP9w17LrdpFq5aGcI1jOaEaE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23077643/star_wars_eclipse_still_17.jpg");
+html {
+  background-image: url("https://wallpaper.dog/large/20345785.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.main-page{
+}
+.home-btn{
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #eceacc;
+  letter-spacing: 5px;
+  text-shadow: 10px 10px 25px rgb(81,67,21),
+    -10px 10px 25px rgb(81,67,21),
+    -10px -10px 25px rgb(81,67,21),
+    10px -10px 25px rgb(81,67,21);
+    margin-top: -2vw;
+    padding-left: 1vw;
+}
+.list-btn{
+  text-align: center;
+  margin-top: 4vw;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+  color: #CFC547;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 10px 10px 25px rgb(81,67,21),
+    -10px 10px 25px rgb(81,67,21),
+    -10px -10px 25px rgb(81,67,21),
+    10px -10px 25px rgb(81,67,21);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207,197,72, .3);
+}
+.starship-details{
+  text-align: center;
+  color: white;
+  background-color: rgb(207,197,72, .3)
+}
+.starship-list{
+  text-align: center;
+  background-color: rgb(207,197,72, .3);
+}
+.starships-text{
+  text-align: center;
+  color: white;
+  font-size: 4vw;
+  text-decoration: none;
+}
+.click-text{
+  text-align: center;
+  margin-top: 4vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2vw;
+  font-weight: bold;
+  color: #CFC547;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 10px 10px 25px rgb(81,67,21),
+    -10px 10px 25px rgb(81,67,21),
+    -10px -10px 25px rgb(81,67,21),
+    10px -10px 25px rgb(81,67,21);
+    display: flex;
+    justify-content: center;
+    padding-bottom: -5vw;
 }
